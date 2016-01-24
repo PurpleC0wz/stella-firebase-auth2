@@ -1,0 +1,6 @@
+$webResourceManager.requireResourcesForContext("stella-firebase-auth")
+
+<p><b>Please wait while we log you in to x-portal using JWT...</b></p>
+
+<div id="stella-firebase-macro-remote-auth-jwt-token" style="display:none;">$token</div>
+<div id="stella-firebase-macro-remote-auth-jwt-url" style="display:none;">$url</div>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="powermock-mockito-junit-1.6">
+    <CLASSES>
+      <root url="file://C:/Program Files/powermock-mockito-junit-1.6.3" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/Program Files/powermock-mockito-junit-1.6.3" recursive="false" />
+  </library>
+</component>
