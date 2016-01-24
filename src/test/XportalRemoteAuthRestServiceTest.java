@@ -136,6 +136,11 @@ public class XportalRemoteAuthRestServiceTest {
             when(xprarService.auth(data)).thenReturn(response.ok(new Gson().toJson(data)).build());
         }
     }
+
+    @Test public void smallTest()
+    {
+
+    }
 }
 
 
