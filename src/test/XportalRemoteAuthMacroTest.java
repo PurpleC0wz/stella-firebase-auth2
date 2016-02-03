@@ -114,12 +114,9 @@ public class XportalRemoteAuthMacroTest {
     {
         PowerMockito.mockStatic(MacroUtils.class);
         {
-
             PowerMockito.when(MacroUtils.defaultVelocityContext()).thenReturn(new HashMap<String, Object>());
             MacroUtils.defaultVelocityContext();
             PowerMockito.verifyStatic();
-
-
         }
     }
 

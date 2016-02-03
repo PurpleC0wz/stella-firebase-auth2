@@ -9,6 +9,17 @@
 
     <!-- add our i18n resource -->
     <resource type="i18n" name="i18n" location="stella-firebase-auth"/>
+    <resource type="i18n" name="i18nsecond" location="message"  />
+
+    <web-item key="stella-licensing-web-item-key" name="Stella Licensing Web Item" section="system.admin/stella" weight="3">
+        <label key="stella-licensing.admin.web-item.title" />
+        <link>/admin/stella/stella-licensing.action</link>
+    </web-item>
+
+    <web-section key="stella" name="Stella ConnectWise Admin Web Section" location="system.admin" weight="100">
+        <label key="stella-licensing.admin.web-section.stella-connectwise.title" />
+    </web-section>
+
     
     <component key="firebaseClient" name="firebaseClient" class="com.stellanow.FBClient"/>
     
